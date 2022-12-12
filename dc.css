@@ -1,0 +1,230 @@
+*{
+    margin: 1.5px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+} 
+.srch input[type=text] { 
+    width: 700px; 
+    padding: 6px;  
+    margin-top: 5px;  
+    font-size: 17px;  
+    border: none;
+    background: rgba(128, 128, 128, 0.505);
+    border-radius: 20px;  
+    border-style: none;
+    }  
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    padding-top: 8px;
+    padding-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-left:30px ;
+}
+.back{
+    margin: 25px 65px;
+    background: rgba(255, 192, 203, 0.334);
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+}
+.col{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin: 45px 10px;
+}
+.m h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.tt{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.dd{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.bbtn{
+    margin-left: 15px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border-style: none;
+    background:linear-gradient(45deg,rgb(80, 13, 167),rgb(192, 13, 13)) ;
+    color: white;
+}
+.grd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.third h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 65px;
+}
+.wtch{
+    display: flex;
+    gap: 50px;
+    background:linear-gradient(45deg,rgb(102, 216, 14),rgb(233, 233, 21)) ;
+    margin: 10px 100px;
+    padding: 0px 0px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+}
+.wtch h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:45px;
+    margin-left:25px;
+    color: white;
+}
+.bg{
+    display: flex;
+    gap: 50px;
+    background:linear-gradient(45deg,rgb(245, 77, 200),rgb(107, 17, 224)) ;
+    margin: 15px 100px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+}
+.bg h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:45px;
+    margin-left:35px;
+    color: white;
+}
+.sw{
+    display: flex;
+    gap: 30px;
+    background:linear-gradient(45deg,rgb(79, 23, 220),rgba(107, 17, 224, 0.852)) ;
+    margin: 15px 100px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+}
+.sw h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:43px;
+    margin-left:35px;
+    color: white;
+}
+.backk{
+    width: 100%;
+    height: 150vh;
+    background: rgba(211, 211, 211, 0.696);
+    border-radius: 20px;
+}
+.ttl{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 35px;
+}
+.ttl small{
+    color: rgb(203, 16, 156);
+    font-size: 15px;
+}
+.coll{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin: 45px 10px;
+    gap: 55px;
+  
+}
+.bk{
+    background: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 15px 55px;
+    width: 100%;
+}
+.bk img{
+    padding-left: 25px;
+    
+}
+.bk .ll{
+    padding-left: 55px;
+}
+.bk H3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bk p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px 10px;
+}
+.bk .tk{
+    font-weight: bold;
+}
+.bk .btn{
+    margin-left: 65px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border-style: none;
+    background:linear-gradient(45deg,rgb(80, 13, 167),rgb(192, 13, 13)) ;
+    color: white;
+}
+.bacx{
+    margin: 25px 65px;
+    background: rgba(255, 192, 203, 0.334);
+    border: 1px solid;
+    border-radius: 20px;
+    border-style: none;
+    height: 60vh;
+}
+.bacx h1{
+    margin: 25px 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+}
+.bacx P{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.srrch{
+    padding-left: 250px;
+}
+.srrch input[type=text] { 
+    width: 700px; 
+    padding:10px 10px;  
+    margin-top: 5px;
+    font-size: 17px;  
+    border: none;
+    background: rgba(128, 128, 128, 0.505);
+}  
+.tom{
+    background: linear-gradient(45deg,rgb(218, 20, 185),rgb(243, 22, 173)); 
+    margin-top: 5px;  
+    font-size: 17px;  
+    border: none; 
+    padding: 10px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backk{
+    overflow-y: hidden;
+}
